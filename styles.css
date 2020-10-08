@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+.grid {
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.square {
+    width: 60px;
+    height: 60px;
+    margin: 5px 5px 5px 5px;
+}
+.cover {
+    width: 60px;
+    height: 60px;
+    background-color: lightgreen;
+}
+.remove {
+    visibility: hidden;
+}
